@@ -23,7 +23,7 @@ void install_pkg(package_t* package, int verbose_mode)
 
     if (is_404(crate))
     {
-        printf("FATAL: Package '%s' not found\n.", package->name);
+        printf("FATAL: Package '%s' not found.\n", package->name);
         exit(1);
     }
 
